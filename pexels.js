@@ -1,5 +1,5 @@
 const key = 'CIbV2zcm1PXfrVYbg3DpecXj2HC6pK46LQfSh5A7CNSbWL3TsTSR6EkP'
-
+// query è il parametro che sto passando invocando la funzione dai bottoni e dal search
 const getImg = function (query) {
   fetch('https://api.pexels.com/v1/search?query=' + query, {
     headers: {
